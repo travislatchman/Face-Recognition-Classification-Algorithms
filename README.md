@@ -246,7 +246,7 @@ The error rate increases with larger values of $k$, contrary to the expectation 
 ### 3. Let k = 3 and select m = 30 images per individual with labels to form the training set and use the remaining images in the dataset as the test set. $\|x-y\|_p$
 - *Replace Distance Metric (error rate vs p )*
 
-  | $\mathbf{p}$ | Classification Error Rate |
+| $\mathbf{p}$ | Classification Error Rate |
 | :---: | :---: |
 | 1 | 47.48822605965463 |
 | 3 | 40.816326530612244 |
