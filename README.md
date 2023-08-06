@@ -37,7 +37,6 @@ Where:
 - $\hat{l}\left(x_i\right)$ represents the classified label for the $i$-th observation from the test set.
 - $l\left(x_i\right)$ is the actual label for the $i$-th observation.
 
----
 
 ## Face Recognition: k-NN
 
@@ -305,7 +304,7 @@ results from my script to the results outputted from sklearn’s knn.score. Then
 - neighbors: 1
 - p: 3
 
----
+
 
 ## Eigenfaces (PCA)
 
@@ -386,7 +385,7 @@ errors from sklearn’s built in PCA function.
 
 ![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/c3f59cd2-6c7f-4b97-acba-f2502987bf74)
 
----
+
 
 ## Fisherfaces (LDA)
 
@@ -466,7 +465,7 @@ The results for classification
 error rate are comparable to LDA because both are supervised linear classifiers. Support Vector Machine’s
 classification error was slightly higher.
 
----
+
 ## Sparse-Representation Classification
 
 Please see **`src_matchingpursuit.ipynb`**
