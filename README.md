@@ -354,6 +354,7 @@ The whiten parameter specifies whether or not to normalize each component so tha
 in this case, it is set to True.
 
 - *PCA - SVD, whiten Error Rates*
+- 
 | $\mathbf{m}$ | AverageClassificationErrorRate |
 | :---: | :---: |
 | 10 | 23.35299901671583 |
