@@ -258,16 +258,10 @@ The error rate increases with larger values of $k$, contrary to the expectation 
 
 Based on the plot, we can see that the choice of distance metric does affect the classification error rate. In
 this case, the classification error rate generally decreases as the value of p increases, except for an increase
-11 when p=10. This is because the different distance metrics capture different aspects of the data and some
-may be more effective for the given problem than others. P = 5 has the lowest error rate in this test. The
-optimal choice of distance metric may vary depending on the dataset and the specific problem being solved.
-
-The distance metric does have an effect on the error rate. The error rate generally decreases as p increases,
-except for an increase at p=5. This is because a larger p value means the distance metric places more
+when p=10. P = 5 has the lowest error rate in this test. This is because a larger p value means the distance metric places more
 emphasis on the larger differences between feature values, which can make the classification more robust to
 outliers and noise. However, a very large p value can also lead to overfitting and decreased generalization
-performance. Therefore, it is important to choose the appropriate distance metric and k value for the
-given problem.
+performance. 
 
 
 ### 4. Instead of using the pixel intensities as features, extract the LBP and HOG features from the images. Repeat step 3 with p = 1, 2. What are the error rates corresponding to pixel intensities, LBP and HOG features?
