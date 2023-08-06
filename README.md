@@ -12,8 +12,7 @@
 ## Extended YaleB Dataset Analysis
 
 ### Dataset Overview:
-The **Extended YaleB dataset** comprises images of 38 unique individuals, each having approximately 64 near-frontal photos under varying illumination conditions. The original images have been processed to a resolution of $32 \times 32$ pixels. A visual representation of the sample images is depicted in Figure ??.
-
+The **Extended YaleB dataset** comprises images of 38 unique individuals, each having approximately 64 near-frontal photos under varying illumination conditions. The original images have been processed to a resolution of $32 \times 32$ pixels. 
 ### Dataset File:
 The dataset can be downloaded as `YaleB-32x32.mat` from the course locker. It contains two main variables:
 - `fea`: Each row of this variable represents a face.
