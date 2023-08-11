@@ -53,7 +53,7 @@ $k=1$
 | 40 | 28.299776286353467 |
 | 50 | 24.124513618677042 |
 
-![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/9e452002-c8e7-499a-a239-6ec029959d30)
+![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/4473500a-7fb0-45ba-98c2-92dca27aa401)
 
 This code will loop over different numbers of training samples (10, 20, 30, 40, 50), randomly select m
 images per individual for the training set, and use the remaining images as the test set. For each split, it
@@ -77,13 +77,16 @@ seems to give good performance without requiring too much training data.
 | 40 | 39.14988814317674 |
 | 50 | 32.87937743190661 |
 
+![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/31839f33-270f-42ae-a1da-58f62ce9ca48)
+
 <div align="center">
 
 *Misclassified sample for k = 2*
 
 </div>
 
-![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/d29cf2f3-d005-4bd4-a30f-86b9088b3897)
+![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/f9b29479-5051-4ef6-b76e-eeedefd88386)
+
 
 <br>
 
@@ -98,7 +101,7 @@ seems to give good performance without requiring too much training data.
 | 40 | 39.038031319910516 |
 | 50 | 35.992217898832685 |
 
-![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/e5ddfb63-d01c-4c1c-8a83-51201ec6c7f7)
+![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/d7f2cf87-6933-4c62-b5e7-5d3b204c94cd)
 
 <div align="center">
 
@@ -106,7 +109,7 @@ seems to give good performance without requiring too much training data.
 
 </div>
 
-![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/db1612b5-5b31-48fd-aa65-d814cff1beff)
+![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/8a68c580-bc88-4706-94e6-b31efaf13bbd)
 
 <br>
 
@@ -121,12 +124,16 @@ seems to give good performance without requiring too much training data.
 | 40 | 40.380313199105146 |
 | 50 | 32.68482490272373 |
 
-![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/30fc88ef-5490-43ca-90b4-a9ff5a5fe69d)
+![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/a25e484c-531f-4f6c-9579-db65a78e8209)
 
-![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/b3c43046-6b6b-441a-97f7-e991721c7f7c)
+<div align="center">
 
+*Misclassified sample for k = 5*
 
-![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/69951877-ae91-4c2b-9452-72071595c8dd)
+</div>
+
+![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/73a6d607-95f7-4c0a-9b20-c17eb98a8549)
+
 
 <br>
 
@@ -141,7 +148,8 @@ seems to give good performance without requiring too much training data.
 | 40 | 42.281879194630875 |
 | 50 | 37.7431906614786 |
 
-![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/d4f505c6-926f-4440-96b6-b7bdf075d9e8)
+![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/364fd402-75b0-4d5e-a9d4-cb9cc894286a)
+
 
 <div align="center">
 
@@ -149,7 +157,8 @@ seems to give good performance without requiring too much training data.
 
 </div>
 
-![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/da2fd060-9845-40d3-837c-10a458d6a247)
+![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/020d44aa-fe4a-444b-88a7-2f261ceadf04)
+
 
 <br>
 
@@ -170,7 +179,8 @@ I expected. Calculate average classification error rate across splits for curren
 | 10 | 37.43568694370498 |
 
 
-![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/7c9f0199-5498-4fcb-be13-88b4794159dc)
+![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/09edd929-3dfc-4530-a1a5-913561534f96)
+
 
 The problem specifically asks to plot the error rate E against k. The best way to showcase this is to
 display the increasing classification error rates for each choice of m images used for the training set.
@@ -186,7 +196,7 @@ display the increasing classification error rates for each choice of m images us
 | 5 | 72.02556538839725 |
 | 10 | 75.51622418879056 |
 
-![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/009b20f6-963e-4437-814e-cd851f2dbed4)
+![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/9a5eb3f3-2137-4c23-a18f-fb6b14f5e8b6)
 
 
 - *k-neighbor’s classification error rate for m = 20*
@@ -199,7 +209,8 @@ display the increasing classification error rates for each choice of m images us
 | 5 | 55.139056831922616 |
 | 10 | 59.008464328899635 |
 
-![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/77531dbb-9260-43b7-8cdc-b100e5d54eee)
+![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/9d458713-0e71-427a-a6c8-23356032a61c)
+
 
 
 - *k-neighbor’s classification error rate for m = 30*
@@ -212,7 +223,8 @@ display the increasing classification error rates for each choice of m images us
 | 5 | 44.81946624803768 |
 | 10 | 51.25588697017268 |
 
-![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/6ca2d3d9-9e5c-4ba2-b7c2-3b8989c45e1e)
+![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/6330d185-717a-4fb0-b606-128048647c9d)
+
 
 
 - *k-neighbor’s classification error rate for m = 40*
@@ -225,7 +237,7 @@ display the increasing classification error rates for each choice of m images us
 | 5 | 40.380313199105146 |
 | 10 | 42.281879194630875 |
 
-![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/f06e0e61-57ea-4c5e-9320-7ca964b1f1ef)
+![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/dc70e268-1d4e-405f-8ba6-335ba65bd595)
 
 
 - *k-neighbor’s classification error rate for m = 50*
@@ -238,7 +250,8 @@ display the increasing classification error rates for each choice of m images us
 | 5 | 32.68482490272373 |
 | 10 | 37.7431906614786 |
   
-![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/76e9033b-2dd9-4ad6-bbee-c59e024ce6c1)
+![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/1dd336ad-cdea-41d5-84c9-930477b44232)
+
 
 The error rate increases with larger values of $k$, contrary to the expectation of improved accuracy. This could be due to the noisy raw pixel data, making generalization challenging. More neighbors might amplify the noise's impact. Despite the typical advantage of adding more training samples, the inconsistent quality of these samples might adversely affect performance. The trend of rising error rates is observed even with just two neighbors, suggesting that overfitting might not be the primary issue. 
 
@@ -252,7 +265,7 @@ The error rate increases with larger values of $k$, contrary to the expectation 
 | 5 | 39.403453689167975 |
 | 10 | 46.23233908948195 |
 
-![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/dd038d2c-9a96-4f8a-8bf6-aef5feb49ec7)
+![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/951f2753-1ca3-4d78-98cd-72446622b126)
 
 
 Based on the plot, we can see that the choice of distance metric does affect the classification error rate. In
@@ -319,7 +332,7 @@ Using sklearn’s built-in function ``PCA(n_components=100)``,
 | 40 | 34.22818791946309 |
 | 50 | 30.35019455252918 |
 
-![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/600ebb10-46e0-45ed-825e-f5399848ed73)
+![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/5a3b3a9b-514e-4908-ba82-ee7c97eed65b)
 
 These classification error rates are comparable to the kNN results without PCA applied (the error rates
 are slightly worse with PCA).
@@ -356,7 +369,7 @@ in this case, it is set to True.
 | 40 | 10.40268456375839 |
 | 50 | $9.33852140077821]$ |
 
-![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/1ca8fc9c-551e-4856-b60e-8d1bb44d24d9)
+![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/07f4da46-ee8b-4c68-bf67-e9cd7f1b8ad0)
 
 ### 3. PCA/Eigenfaces implemented from scratch
 
@@ -377,8 +390,7 @@ errors from sklearn’s built in PCA function.
 | 40 | 37.13646532438479 |
 | 50 | 34.04669260700389 |
 
-![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/c3f59cd2-6c7f-4b97-acba-f2502987bf74)
-
+![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/bb6838d1-cbd2-4292-b9ca-3192087e8952)
 
 
 ## Fisherfaces (LDA)
@@ -401,7 +413,7 @@ Using sklearn’s built-in function ``LinearDiscriminantAnalysis(n_components=mi
 | 40 | 4.47427293 |
 | 50 | 3.307392996108 |
 
-![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/a4e82108-138a-461f-b86b-b7990a1c9e45)
+![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/87edc108-c578-40ca-ad92-451f3ec94f6e)
 
 LDA has better accuracy than PCA because it is a supervised learning algorithm, meaning it uses labeled
 data to make predictions. PCA is an unsupervised learning algorithm, meaning it does not use labeled data
@@ -428,7 +440,7 @@ problem to compute an LDA matrix and projects both the train and test data onto 
 | 40 | 5.9284116331096195 |
 | 50 | $3.307392996108949]$ |
 
-![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/e5bd705b-2e42-4916-9dd4-9409eca73a63)
+![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/6445df83-cc3b-4a13-9fbd-39b45a3dee13)
 
 I am not sure why the classification error rate is so high for m=10 and m=20, but the classification errors
 for m=30, 40, and 50 remain comparable to the built-in LDA function classification error. I also implemented
@@ -453,7 +465,7 @@ Please see **`svm.ipynb`**
 | 40 | 8.165548098434003 |
 | 50 | $7.003891050583658]$ |
 
-![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/a865e6ac-0ac4-41a2-b383-df97e2e03d09)
+![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/bf5d68b0-20da-4842-82d0-d61bdad7daf0)
 
 The results for classification
 error rate are comparable to LDA because both are supervised linear classifiers. Support Vector Machine’s
@@ -478,5 +490,6 @@ algorithm was implemented incorrectly, the results from this have extremely low 
 | 40 | 0.11185682326621924 |
 | 50 | 0.19455252918287938 |
 
-![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/b86d94bf-caee-4e86-9ab8-cc3afe715044)
+![image](https://github.com/travislatchman/Face-Recognition-Classification-Algorithms/assets/32372013/fac0e3ca-65ef-45a6-bdad-27a59f4214d0)
+
 
